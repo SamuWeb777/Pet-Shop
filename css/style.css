@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap');
+html{
+    font-family:  "Roboto", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/***************HEADER******************/
+header{
+    margin: 0;
+    padding: 0;
+}
+.ofertas, .navegador, .fondo-principal {
+    padding: 20px; /* Agrega relleno para separar los elementos */
+    box-sizing: border-box; /* Incluye el relleno en el cálculo del tamaño del elemento */
+}
+.ofertas{
+    background-color: #222;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    height: 20px;
+    
+}
+.ofertas select{
+    background-color: #222;
+    color: aliceblue;
+    border: none;
+}
+/* navegador*/
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 80px;
+    background-color: #F0A83E;
+    margin: 0;
+}
+
+.titulo-principal{
+    font-weight: 700;
+}
+.titulo-principal span{
+    color: #fff;
+}
+.titulo-principal img{
+    width: 30px;
+    height: 25px;
+}
+.categorias a{
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.boton-hamburguesa {
+    display: none; /* Ocultar el botón en pantallas más grandes */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.linea {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/*  fondo  */
+.fondo-principal{
+    background-image: url(../img/fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    
+}
+.contenido-fondo{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.fondo-principal h2{
+    background-color: #fff;
+    width: 500px;
+    height: 65px;
+    font-size: 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    align-content: center;
+}    
+.fondo-principal p{
+    font-size: 28px;
+}
+.fondo-principal button{
+    background-color: #F0A83E;
+    color: #fff;
+    font-weight: 400;
+    font-size: 23px;
+    border-radius: 5px;
+    border: none;
+    width: 230px;
+    height: 70px;
+}
+
+/************MAIN*****************/
+.destacados{
+    text-align: center;
+    
+}
+.destacados img{
+    width: 100px;
+}
+.destacados h2{
+    margin: 0;
+    font-size: 75px;
+    color: #3C2313;
+}
+.destacados p{
+    font-size: 30px;
+}
+/* card */
+.cards{
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+}
+.card img{
+    height: 400px;
+}
+.card h3{
+    color:#3C2313 ;
+    font-size: 20px;
+}
+.card p{
+    color: #F0A83E;
+    font-weight: 700;
+}
+/*formulario*/
+.formularios{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    text-align: center;
+    width: 700px;
+}
+.formulario h2{
+    color: #3C2313;
+    font-size: 40px;
+}
+.formulario button{
+    color: #fff;
+    border-radius: 25px;
+    margin: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.resetear{
+    background-color: #8A8787;
+}
+.enviar{
+    background-color: #F0A83E;
+}
+form input{
+    background-color: #3C2313;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    width: 700px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+/*******************FOOTER***********************/
+.suscripcion{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #F0A83E;
+    color: #fff;
+    padding: 0 30px;
+}
+.logo-correo{
+    display: flex;
+    margin-left: 15px;
+}
+.logo-correo img{
+    width: 60px;
+}
+.logo-correo h2{
+    margin-left: 15px;
+}
+.suscripcion button{
+    background-color: #3C2313;
+    border-radius: 20px;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+.suscripcion input{
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 18px;
+}
+.localidad{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #3C2313;
+    color: #fff;
+    height: 300px;
+    padding: 0 30px;
+}
+.datos-domicilio{
+    display: flex;
+    
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.imagen{
+    margin-left: auto;
+}
+footer{
+    padding-top: 20px;
+}
+.ultimo{
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+/*******************RESPONSIVE***************/
+@media (width <= 768px){
+    .ofertas,.categorias {
+        display: none; /* Ocultar las categorías en pantallas más pequeñas */
+    }
+    .fondo-principal {
+        height: auto; /* Permitir que la altura se ajuste automáticamente */
+    }
+    
+
+    .contenido-fondo {
+        padding: 10px; /* Reducir el relleno para adaptarse a pantallas más pequeñas */
+    }
+
+    .contenido-fondo h2 {
+        font-size: 24px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .contenido-fondo p {
+        font-size: 16px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .contenido-fondo button {
+        font-size: 14px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
+    }
+    .boton-hamburguesa {
+        display: block; /* Mostrar el botón hamburguesa en pantallas más pequeñas */
+    }
+    
+
+    .cards{
+        display: block;
+    }
+    .suscripcion, .localidad{
+        display: block;
+        justify-items: center;
+        padding: 10px;
+    }
+}
